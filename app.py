@@ -181,6 +181,6 @@ def convert_repo():
 
 if __name__ == '__main__':
     # Use 0.0.0.0 to make it accessible on your network, useful for testing
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=10000)
     # For production, use a proper WSGI server like Gunicorn or Waitress
     # Example: gunicorn -w 4 app:app
